@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #261c6a;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+a {
+    color: #a8a3c1;
+}
+
+.container {
+    padding: 35px 0 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 0 30px;
+}
+
+.header {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.header-logo {
+    height: 40px;
+}
+
+.download-section {
+    padding: 50px 0;
+}
+
+.download-section div h1 {
+    margin: 10px 0 0;
+}
+
+.download-section div p {
+    margin: 10px 0;
+}
+
+.banner {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.btn {
+    margin: 20px 0 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF7800;
+    border: 1px #FF7800 solid;
+    border-radius: 50px;
+    padding: 18px 40px;
+    box-shadow: 0px 14px 40px -5px rgba(255,120,0,0.3), 0 20px 40px -20px rgba(12,5,62,0.2);
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:focus {
+    outline : 0;
+}
+
+.statistics-section {
+    background-color: #f4f3fa;
+    padding: 20px 0 30px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.statistic-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.statistic-content {
+    display: flex;
+    max-width: 450px;
+    margin: auto;
+}
+
+.statistic-number {
+    display: flex;
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-self: center;
+    text-align: right;
+    padding-right: 10px;
+    color: #FF7800;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.number {
+    font-size: 30px;
+}
+
+.million {
+    font-size: 20px;
+}
+
+.statistic-paragraph {
+    border-left: 3px solid #656060;
+    padding-left: 10px;
+    flex: 2 1 75%;
+    text-align: left;
+}
+
+.statistic-paragraph-span {
+    display: block;
+}
+
+.footer {
+    font-size: 13px;
+}
+
+.links-section {
+    border-top: 1px solid #d4d2de;
+    border-bottom: 1px solid #d4d2de;
+}
+
+.link-avast {
+    padding-top: 40px;
+}
+
+.link-avast span {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.link-avast a {
+    color: #6610f2;
+}
+
+.social-links {
+    padding: 20px 0 30px;
+}
+
+.social-links ul li a {
+    display: inline-block;
+    line-height: 30px;
+    min-height: 30px;
+    width: 30px;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 500px;
+    margin: auto;
+}
+
+.fb a {
+    background-image: url(./assets/facebook_icon.png);
+}
+
+.twitter a {
+    background-image: url(./assets/twitter_icon.png);
+}
+
+.youtube a {
+    background-image: url(./assets/youTube_icon.png);
+}
+
+.blog a {
+    background-image: url(./assets/blog_icon.png);
+}
+
+.privacy-links div {
+    padding: 20px 0;
+}
+
+.link-privacy {
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .links-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+    }
+
+    .link-avast, .social-links {
+        padding: 0;
+    }
+
+    .social-links ul {
+        width: 200px;
+    }
+
+    .download-section div p {
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+
+    .privacy-links div {
+        padding: 30px 0;
+    }
+
+    .container {
+        padding: 35px 0 50px;
+    }
+}
